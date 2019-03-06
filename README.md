@@ -1,7 +1,7 @@
 # ACL-vs-NIPS-Key-Phrase-Extraction
 A variation to TextRank algorithm based on the notion that certain sections of a research paper hold more important information than others.
 
-# Introduction
+## Introduction
 The document space is growing at a humongous rate and volume everyday. This
 poses a need for generating keywords, accurately and efficiently, for a faster and
 easier analysis of the huge amount of textual information available. We propose
@@ -12,14 +12,14 @@ important information than others. We also plan to incorporate word embeddings
 to generate more meaningful association between words. This is then combined
 with Inverse Distance Weighting scheme for a chosen window size over the text.
 
-# Data
+## Data
 We plan to use the data from ACL Research papers from ACL Anthology
 Reference Corpus (http://acl-arc.comp.nus.edu.sg/). It has 9849 ACL research
 papers all in pdf format. For NIPS papers, we would use the NIPS dataset
 available at Kaggle (https://www.kaggle.com/benhamner/nips-papers). This
 dataset includes 7241 NIPS papers ranging from year 1987 to 2016 conference.
 
-# Tasks
+## Tasks
 The major tasks will be:
 • processing the text (conversion from pdf to plain text, tokenizing text,
 stemming/lemmatizing words, removing stopwords, removing numbers)
@@ -34,7 +34,7 @@ fixed same weights
 • Evaluate the results using Mean Reciprocal Rank(MRR) for both ACL and
 NIPS datasets with and without word embeddings.
 
-# Motivation:
+## Motivation:
 Extracting keywords is one of the most important tasks while working with text
 data in the domain of Text Mining, Information Retrieval and Natural Language
 Processing. It helps in query refinement, document indexing, text summarization,
